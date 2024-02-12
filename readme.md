@@ -1,39 +1,55 @@
-<img align="right" width="100" src="https://user-images.githubusercontent.com/1472352/48118952-d4f4db80-e2a8-11e8-8d0a-37b24c071b12.png"/>
+## English Translation of the Markdown Code
 
-<h1 align="left"><a href="https://yike.io">Yike.io</a></h1>
+**Image:**
 
-论坛项目源码：https://yike.io, 基于 Vuejs 开发的 Laravel SPA 项目。
+Yike.io: [https://yike.io](https://yike.io)
 
-> 🏵 后端源码：https://github.com/overtrue/api.yike.io
+**Title:**
 
-开源中国 Gitee 仓库：[![Fork me on Gitee](https://gitee.com/overtrue/yike.io/widgets/widget_3.svg)](https://gitee.com/overtrue/yike.io)
+Yike.io: [https://yike.io](https://yike.io)
 
-> 🎬 快速上手视频：[053. 优秀的开源社区——yike.io](https://learnku.com/courses/laravel-package/yikeio/2505)
+**Description:**
 
-> 🚨 此次开源只是应大家的要求，所以请不要联系我咨询任何使用问题，遇到问题请自行解决，熟读 Laravel 文档。
-> 如果你有兴趣参与改进，请直接 PR 即可。
+Source code of the forum project: [https://yike.io](https://yike.io), a Laravel SPA project developed with Vuejs.
 
-## 安装
+**Back-end source code:**
 
-克隆后先安装依赖：
+>  [https://github.com/overtrue/api.yike.io](https://github.com/overtrue/api.yike.io)
+
+**Gitee repository:**
+
+Fork me on Gitee: [https://gitee.com/overtrue/yike.io](https://gitee.com/overtrue/yike.io)
+
+**Quick start video:**
+
+>  053. Excellent open source community - yike.io: [https://learnku.com/courses/laravel-package/yikeio/2505](https://learnku.com/courses/laravel-package/yikeio/2505)
+
+**Notes:**
+
+>  This open source is only released at the request of everyone, so please do not contact me for any usage questions. Please solve the problems by yourself and read the Laravel documentation carefully.
+> If you are interested in participating in the improvement, please directly PR.
+
+## Installation
+
+After cloning, install the dependencies first:
 
 ```shell
 $ npm install
 ```
 
-或者使用 yarn：
+Or use yarn:
 
 ```shell
 $ yarn install
 ```
 
-跑测试服务：
+Run the test service:
 
 ```shell
 $ npm run serve
 ```
 
-## 配置
+## Configuration
 
 Copy the `.env.example` to `.env.[ENV]`:
 
@@ -45,14 +61,28 @@ cp .env.example .env.local
 cp .env.example .env.production
 ```
 
-配置 [腾讯防水墙](https://007.qq.com/) ID , 需要跟后端一致
+Configure the Tencent Waterproof Wall: [https://007.qq.com/](https://007.qq.com/) ID, which needs to be consistent with the back-end
 
 ```env
-# 腾讯防水墙配置
+# Tencent Waterproof Wall configuration
 VUE_APP_CAPTCHA_ID_REGISTER=
 VUE_APP_CAPTCHA_ID_PUBLISH=
 ```
 
 ## License
 
-MIT
+MIT.
+
+## Additional Information
+
+The Markdown code also includes the following information:
+
+* A link to the project's website: [https://yike.io](https://yike.io)
+* A link to the back-end source code: [https://github.com/overtrue/api.yike.io](https://github.com/overtrue/api.yike.io)
+* A link to the Gitee repository: [https://gitee.com/overtrue/yike.io](https://gitee.com/overtrue/yike.io)
+* A link to a quick start video: [https://learnku.com/courses/laravel-package/yikeio/2505](https://learnku.com/courses/laravel-package/yikeio/2505)
+* Notes about the open source release and how to get involved
+* Instructions on how to install and configure the project
+* The project's license: MIT
+
+I hope this translation is helpful. Please let me know if you have any other questions.
